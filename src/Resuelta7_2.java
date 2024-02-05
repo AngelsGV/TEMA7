@@ -21,11 +21,17 @@ class CuentaCorriente1{
         this.dni = dni; //passar el dni como parametro
         this.nombre = nombre;
         saldo = 0;
+        //this(dni,nombre,0)
+        //o
+        //this(dni,saldo)
+        //this(dni,0)
+        //this.nombre=nombre;
     }
     CuentaCorriente1(String dni, double saldo){
         this.dni = dni; //passar el dni como parametro
         this.saldo = saldo;
         this.nombre = "Sin asignar";
+        //this(dni,"Sin asignar", saldo);
     }
     CuentaCorriente1(String dni, String nombre, double saldo){
         this.dni = dni;
