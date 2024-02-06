@@ -1,7 +1,7 @@
 public class CuentaCorriente1 {
     String dni;
-    public String nombre;
-    private double saldo;
+    String nombre;
+    double saldo;
 
     CuentaCorriente1(String dni, String nombre) {
         this.dni = dni; //passar el dni como parametro
