@@ -50,4 +50,13 @@ public class CuentaCorriente1 {
         System.out.println("DNI: " + dni);
         System.out.println("Saldo: " + saldo);
     }
+
+    //ej 7.4.
+    static private String nombreBanco = "Internacional Java Bank";
+    static void setBanco(String nuevoNombre){
+        nombreBanco = nuevoNombre;
+    }
+    static String getBanco(){
+        return nombreBanco;
+    }
 }
